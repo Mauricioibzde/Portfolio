@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2025</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<section class="menu">
+  <nav class="menu-desktop container">
+     <div class="logo">
+        <img src="./assets/img/logo.png" alt="">
+     </div>
+        <div>
+            Loading
+          
+        </div>
+    </nav>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <svg viewBox="0 0 32 32">
+            <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+            <path class="line" d="M7 16 27 16"></path>
+        </svg> 
+        <div class="sidebar">
+            <a href="#">loading</a>
+            <a href="#">loading</a>
+            <a href="#">loading</a>
+            <a href="#">loading</a>
+        </div><!--MENU-MOBILE-->
+    
+    </div><!--MENU-MOBILE-->
+     
+</section>
+
+    <section class="hero container"><!--HERO-->
+        <div class="header-profile container">
+            <div class="photo">
+                <img src="./assets/img/Photolebenslaufe.jpg" alt="Profile Image">
+            </div>
+            
+            <h1 class="title">Hi, <span class="highlight">I am</span> Mauricio <br> <span id="dynamicText" class="highlight fade">Web developer</span></h1>
+            <div class="social-icons">
+                <a href="#"><img src="./assets/icon/github.png" alt=""></a>
+                <a href="#"><img src="./assets/icon/linkdin.png" alt=""></a>
+                <a href="#"><img src="./assets/icon/telegram.png" alt=""></a>
+                <a href="#"><img src="./assets/icon/facebook.png" alt=""></a>
+            </div>
+            <p class="subtitle">I am passionate about software development and eager to start my professional journey through an apprenticeship where I can learn from experienced professionals and contribute to innovative projects. 🔭 I’m currently working on my first own website. ⚡ Fun fact My other hobby is breakdancing.</p>
+            <br>
+           <!-- <a href="#" class="btn">See my Projects</a>-->
+        </div>
+        <div class="icon-dev">
+            <div class="icon-container" id="iconContainer"></div>
+        </div>
+    </section> <!--HERO-->
+
+    <section class="about-section container"> <!--SECTION ABOUT-->
+        
+        <div class="about-content-left">
+            <img src="./assets/img/background.png" alt="">
+        </div>
+        <div class="about-content-right">
+            <h2>About Me</h2>
+            <p>💻 My journey into the world of IT started when I was 13 years old and had my first contact with computers on a technical course. Without a computer to practice on - because of financial struggles - I decided on a unique way to build one piece by piece, studying the hardware involved in depth. <br> This experience not only taught me the importance of resourcefulness and perseverance but also sparked a deep interest in understanding and creating technology. <br>
+
+                🎨 I then delved into operating systems and discovered my passion for design, exploring Adobe programs such as Photoshop, Illustrator, Premiere Pro, After Effects, as well as CorelDraw. <br> Throughout my studies, I faced challenges and problems, but by researching and solving them, I gained a lot of experience as a graphic designer. <br>
+                
+                📝 Years later, I met a friend who introduced me to web programming, specifically JavaScript. <br> Although I wasn't interested at first, I needed to create a website for my other passion, dance. <br> After several failed attempts, I realized that I needed to study programming. <br> My interest was rekindled and I learned all the skills needed to get started as a front-end developer.
+                
+                🕺 Thanks to my dancing talent, I was given the opportunity to come to Europe about 2 years ago and work in a French dance company. This chance got me closer to my dream of furthering my education in IT. <br> I am very grateful for this and I would not want to miss this opportunity.
+                
+                💪 I’m currently working on my first own website.
+                
+                ⚡ Fun fact: My other hobby is breakdancing.</p>
+        </div>
+    </section> <!--SECTION ABOUT-->
+
+
+    <section class="projects-section container"> <!--SECTION-PROJECTS-->
+     
+        <div class="carousel">
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Dj Website</h3>
+                        <img src="./assets/img/site-001.jpeg" alt="Imagem">
+                       
+                        <a href="https://mauricioibzde.github.io/Project-Dj-website/">Click to see</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Travel Gram</h3>
+                        <img src="./assets/img/site-002.png" alt="Imagem">
+                       
+                        <a href="https://mauricioibzde.github.io/Travelgram-Project-Rocketseat/">Click to see</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Cup cake</h3>
+                        <img src="./assets/img/site-003.png" alt="Imagem">
+                       
+                        <a href="https://mauricioibzde.github.io/Projeto-Receita-de-Bola/">Click to see</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--SECTION-PROJECTS-->
+
+    <footer class="footer container">
+        <div>
+        <div class=".contact-us">
+            <h3>Contact Us</h3>
+            <p>80637 Munich
+                Germany</p>
+            <p>Monday – Friday 8:00 a.m. – 5:00 p.m.</p>
+            <p>m.fariasdasilva@hotmail.com</p>
+            <p>+49 1772278081</p>
+        </div>
+           
+    
+    </footer>
+    <div class="credits container">
+        <span>Mauricio Farias da Silva</span>
+        <span>Portfolio &copy; 2025</span>
+    </div>
+    <script src="./script/index.js"></script>
+
+
+</body>
+</html>
