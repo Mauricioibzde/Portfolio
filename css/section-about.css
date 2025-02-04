@@ -7,6 +7,8 @@
     text-align: justify;
     display: flex;
     gap: 15px;
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg,  0% rgba(0,0,0,1) 50%, rgba(0,0,0,0.3768967059480042) 100%, rgba(137,45,253,0) 100%);
  
 }
 .about-content, .projects-content {
