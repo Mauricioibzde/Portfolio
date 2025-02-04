@@ -1,0 +1,139 @@
+    
+    
+        @media screen and (min-width: 1200px) {
+
+       
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-inline: 200px;
+
+   
+ }
+
+}
+.header-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-inline: 200px;
+}
+
+.about-section .about-content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-section .about-content-right p {
+
+}
+
+.subtitle {
+    max-width: 60%;
+    text-align: center;
+}
+
+
+    
+    
+    @media screen and (max-width: 936px) {
+
+        .footer {  
+            padding-block: 20px;
+              text-align: left;
+              max-width: 100%;
+              padding-inline: 20px;
+           
+           
+          }
+        .carousel {
+            justify-content: flex-start;
+        }
+.hamburger {
+    display: block;
+
+
+}
+
+.container {
+    padding-inline: 20px;
+}
+
+nav .menu-loading  {
+    display: none;
+}
+
+.header-profile {
+    margin-top: 100px;
+}
+
+
+    }
+    @media screen and (max-width: 1060px) {
+        .carousel {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding-inline: 20px;
+        }
+
+
+        .container p {
+            max-width: 900px;
+
+        }
+
+        .profile-image {
+            width: 150px;
+
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+  
+
+        .about-content-left img {
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .about-section {
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+
+        .about-content-left {
+            height: 300px;
+        }
+
+        .about-content-right {
+            height: auto;
+        }
+
+        .card-container {
+            display: flex;
+        }
+
+        .card-all {
+            grid-template-columns: repeat(3, 250px);
+            padding-inline: 20px;
+
+
+
+
+        }
+
+
+
+
+
+
+
+    }
