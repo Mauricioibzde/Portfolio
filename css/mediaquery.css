@@ -61,6 +61,10 @@
 
 
 }
+.credits {
+    flex-direction: column;
+    text-align:center;
+}
 
 .container {
     padding-inline: 20px;
