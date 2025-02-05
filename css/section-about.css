@@ -7,11 +7,12 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    height: 70dvh;
     margin-top: 20px;
     text-align: justify;
     display: flex;
-    background: rgb(0,0,0);
-    background: linear-gradient(360deg,  0% rgba(0,0,0,1) 50%, rgba(0,0,0,0.3768967059480042) 100%, rgba(137,45,253,0) 100%);
+ 
+  
     padding-inline: 200px;
  
 }
