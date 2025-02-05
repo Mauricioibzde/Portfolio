@@ -13,9 +13,11 @@
 
 
 body {
-background-image: url(./abstract-fantasy-space-scene-with-planet-2025-01-09-05-21-07-utc.jpg);
-background-attachment: fixed;
-background-size: cover;
+    background-image: url(./abstract-fantasy-space-scene-with-planet-2025-01-09-05-21-07-utc.jpg);
+    background-size: cover;  /* Faz a imagem cobrir todo o body */
+    background-repeat: no-repeat;
+    background-position: center center; /* Centraliza a imagem */
+    overflow-x: hidden; /* Evita rolagem lateral */
 
     
 }
