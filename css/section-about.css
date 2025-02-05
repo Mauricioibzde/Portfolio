@@ -46,11 +46,20 @@
     height: 450px;
     max-width: 800px;
     max-height: 450px;
+    object-fit: cover;
     border-radius: 50px;
     background-image: url(../assets/img/background.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: center ; /* Centraliza a imagem */
+    background-position: center center;
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 1024px) {
+    .about-content-left {
+        background-attachment: scroll; /* Remove o efeito parallax */
+    }
 }
 .about-content-right {
     max-width: 800px;
