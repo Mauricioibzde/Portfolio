@@ -44,7 +44,7 @@ function toggleMenu() {
 
 //
 
-const texts = ["Dancer", "Designer Graphics", "IT technician"];
+const texts = ["Dancer", " Graphics Designer ", "IT technician"];
         let index = 0;
         const textElement = document.getElementById("dynamicText");
 
