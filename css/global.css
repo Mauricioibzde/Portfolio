@@ -14,6 +14,8 @@
 
 body {
 background-image: url(./abstract-fantasy-space-scene-with-planet-2025-01-09-05-21-07-utc.jpg);
+background-attachment: fixed;
+background-size: cover;
 
     
 }
