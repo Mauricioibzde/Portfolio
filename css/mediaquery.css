@@ -109,6 +109,10 @@ nav .menu-loading  {
         .carousel {
             justify-content: flex-start;
         }
+
+            .hero {
+            flex-direction: column;
+        }
        
     
 
