@@ -49,7 +49,8 @@
             max-width: 100%;
             margin: 0 auto;
             padding-inline: 40px;
-        
+                height: 130dvh;
+    }
            
         }
 
