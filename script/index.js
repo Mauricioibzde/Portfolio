@@ -62,3 +62,21 @@ const texts = ["Dancer", " Graphics Designer ", "IT technician"];
 
 
 //
+
+document.addEventListener("scroll", function () {
+    const element = document.querySelector(".about-content-left");
+    const scrollPosition = window.scrollY;
+    
+    // Calcular a altura do elemento e da imagem
+    const elementHeight = element.offsetHeight;
+    const imageHeight = element.scrollHeight; // Altura total da imagem no background
+    
+    // Limitar o movimento para o limite da imagem
+    const maxScroll = imageHeight - elementHeight; // A posição máxima para o scroll
+
+    // Ajustar o movimento do background
+    const newPosition = Math.min(scrollPosition * 0.5, maxScroll);
+    
+    // Atualizar a posição do background
+    element.style.backgroundPosition = `center ${newPosition}px`;
+});
