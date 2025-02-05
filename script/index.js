@@ -67,16 +67,14 @@ document.addEventListener("scroll", function () {
     const element = document.querySelector(".about-content-left");
     const scrollPosition = window.scrollY;
     
-    // Calcular a altura do elemento e da imagem
+    // Calcular a altura do elemento (div) e a altura do background
     const elementHeight = element.offsetHeight;
-    const imageHeight = element.scrollHeight; // Altura total da imagem no background
+    const imageHeight = element.scrollHeight; // A altura total da área do background
     
-    // Limitar o movimento para o limite da imagem
-    const maxScroll = imageHeight - elementHeight; // A posição máxima para o scroll
-
-    // Ajustar o movimento do background
-    const newPosition = Math.min(scrollPosition * 0.5, maxScroll);
+    // Limitar a rolagem para não ultrapassar o limite da imagem
+    const maxScroll = imageHeight - elementHeight;
+    const scrollLimit = Math.min(scrollPosition * 0.5, maxScroll); // Limita o movimento
     
-    // Atualizar a posição do background
-    element.style.backgroundPosition = `center ${newPosition}px`;
+    // Atualizar a posição do fundo (background)
+    element.style.backgroundPosition = `center ${scrollLimit}px`;
 });
