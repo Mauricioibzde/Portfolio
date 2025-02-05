@@ -22,16 +22,16 @@
 .about-section {
     max-width: 100%;
     margin: 0 auto;
-    padding-inline: 200px;
+
+   
 }
 
 .about-section .about-content-right {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 .about-section .about-content-right p {
+    font-size: 20px;
 
 }
 
@@ -44,6 +44,14 @@
     
     
     @media screen and (max-width: 936px) {
+   
+        .about-section {
+            max-width: 100%;
+            margin: 0 auto;
+            padding-inline: 40px;
+        
+           
+        }
 
         .footer {  
             padding-block: 20px;
@@ -86,7 +94,23 @@ nav .menu-loading  {
 
 
     }
-    @media screen and (max-width: 1060px) {
+    @media screen and (max-width: 600px) {
+
+        .about-content-left {
+            height: 450px;
+            max-width: 800px;
+            max-height: 450px;
+            object-fit: cover;
+            border-radius: 50px;
+            background-image: url(../assets/img/background.png);
+            background-attachment: fixed;
+           background-position: center;
+           background-size: cover;
+         
+            
+        }
+
+
         .carousel {
             display: grid;
             grid-template-columns: repeat(3, 1fr);

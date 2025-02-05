@@ -3,44 +3,60 @@
 }
 .about-section {
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin-top: 20px;
     text-align: justify;
     display: flex;
-    gap: 15px;
     background: rgb(0,0,0);
     background: linear-gradient(360deg,  0% rgba(0,0,0,1) 50%, rgba(0,0,0,0.3768967059480042) 100%, rgba(137,45,253,0) 100%);
+    padding-inline: 200px;
  
 }
 .about-content, .projects-content {
-    max-width: 800px;
+  
     margin: auto;
     font-size: 18px;
 }
 .about-content {
     display: flex;
-    flex: 1;
     margin: auto;
     font-size: 18px;
     flex-wrap: wrap;
 }
 .about-content-left {
     width: 100%;
-    height: 600px;
+    max-width: 800px;
+    max-height: 600px;
+   
+
     display: flex;
+    justify-content: center;
     border-radius: 20px;
     overflow: hidden;
 }
 .about-content-right p {
     font-size: 22px;
+  
 
 }
-.about-content-left img {
-    width: 100%;
-    object-fit: cover;
+.about-content-left {
+    height: 450px;
+    max-width: 800px;
+    max-height: 450px;
+    border-radius: 50px;
+    background-image: url(../assets/img/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center ; /* Centraliza a imagem */
 }
 .about-content-right {
+    max-width: 800px;
     width: 100%;
-    height: 600px;
+    height: 450px;
+  
 }
 .projects-section {
     display: flex;
