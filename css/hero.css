@@ -5,8 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(0,0,0);
-    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3768967059480042) 49%, rgba(137,45,253,0) 100%);
+
 }
 
 .photo {
