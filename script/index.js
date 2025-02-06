@@ -63,26 +63,5 @@ const texts = ["Dancer", "Graphic Designer", "IT Technician"];
 
 //
 
+//
 
-document.addEventListener("DOMContentLoaded", function () {
-    const aboutSection = document.querySelector(".about-content-left");
-
-    if (aboutSection) {
-        window.addEventListener("scroll", function () {
-            let scrollTop = window.scrollY;
-            aboutSection.style.backgroundPosition = `center ${scrollTop * 0.5}px`;
-        });
-    }
-});
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    const aboutSection = document.querySelector(".about-content-left");
-
-    if (aboutSection) {
-        window.addEventListener("scroll", function () {
-            let scrollTop = window.scrollY;
-            aboutSection.style.backgroundPosition = `center ${scrollTop * 0.5}px`;
-        });
-    }
-});
