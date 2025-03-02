@@ -1,135 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio 2025</title>
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body class="background">
-<section class="menu-background">
-    <!-- <nav class="menu-desktop container">
-     <div class="logo">
-        <img src="./assets/img/logo.png" alt="">
-     </div>
-        <div class="menu-loading">
-           
-          
-        </div>
-    </nav>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/index.css">
+  </head>
+  <body>
+    <main>
+    <section id="intro">
+        <div class=" container">
+            <header class=" profile grid-row">
+                <div class="Avatar-container">
+                    <div class="Avatar">
+                        <img class="photo-profile" src="assets/mauricio ibz.png" alt="">
+                        <img class="tag" src="assets/tag.png" alt="">
+                     </div>
 
-    <div class="hamburger" onclick="toggleMenu()">
-        <svg viewBox="0 0 32 32">
-            <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-            <path class="line" d="M7 16 27 16"></path>
-        </svg> 
-        <div class="sidebar">
-            <a href="#">loading</a>
-            <a href="#">loading</a>
-            <a href="#">loading</a>
-            <a href="#">loading</a>
+                </div>
+                <div>
+                    <h2>Hello World! Meu nome é <span>Mauricio Farias da Silva</span> e sou</h2>
+                    <h1>Desenvolvedor Fullstack</h1>
+                    <p>
+                        Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+                    </p>
+                </div>
+            </header>
+
+            <div class="dev-icons">
+                <div>
+                    <img class="GitHub" src="assets/icons/GitHub.svg" alt="">
+                    <h2>GitHub</h2>
+                </div>
+                <div>
+                    <img class="HTML" src="assets/icons/HTML.svg" alt="">
+                    <h2>HTML</h2>
+                </div>
+                <div>
+                    <img class="CSS" src="assets/icons/CSS.svg" alt="">
+                    <h2>CSS</h2>
+                </div>
+                <div>
+                    <img class="JavaScript" src="assets/icons/JavaScript.svg" alt="">
+                    <h2>JavaScript</h2>
+                </div>
+                <div>
+                    <img class="React" src="assets/icons/React.svg" alt="">
+                    <h2>React</h2>
+                </div>
+                <div>
+                    <img class="Node.js" src="assets/icons/Node.js.svg" alt="">
+                    <h2>Node.js</h2>
+                </div>
+            </div>
+            <div class="arrow-down">
+                <img src="assets/icons/CaretDoubleDown.svg" alt="">
+            </div>
         </div>
-    
-    </div>MENU-MOBILE-->
      
-</section>
-
-    <section class="hero black container"><!--HERO-->
-        <div class="header-profile container">
-            <div class="photo">
-                <img src="./assets/img/Photolebenslaufe.jpg" alt="Profile Image">
-            </div>
-            
-            <h1 class="title">Hi, <span class="highlight">I am</span> Mauricio <br> <span id="dynamicText" class="highlight fade">Web Developer</span></h1>
-            <div class="social-icons">
-                <a href="https://github.com/Mauricioibzde"><img src="./assets/icon/github.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/mauricio-farias-da-silva-4a791a313/"><img src="./assets/icon/linkdin.png" alt=""></a>
-                <a href="mailto:m.fariasdasilva@hotmail.com"><img src="./assets/icon/e-mail.png" alt=""></a>
-            </div>
-            <p class="subtitle">I am passionate about software development and systemintegration eager to start my professional journey through an apprenticeship where I can learn from experienced professionals and contribute to innovative projects. 🔭 I’m currently working on my first own website. ⚡ Fun fact : My other hobby is breakdancing.</p>
-            <br>
-           <!-- <a href="#" class="btn">See my Projects</a>-->
-        </div>
-        <div class="icon-dev">
-            <div class="icon-container" id="iconContainer"></div>
-        </div>
-    </section> <!--HERO-->
-
-    <section class="about-section black  container"> <!--SECTION ABOUT-->
-        
-        <div class="about-content-left">
-            
-        </div>
-        <div class="about-content-right">
-            <h2>About Me</h2>
-            <p>💻 I started in IT at 13, building my own computer from scratch. 🖥️ I became an IT technician, gaining experience in hardware, software, and technical support. 🎨 I discovered my passion for design, mastering tools like Photoshop and After Effects. 📝 I entered the world of web programming to create a website for my passion: dance. 🕺 Two years ago, I moved to Europe as a dancer, getting closer to my dream in IT. 💪 I'm currently developing my first personal website. ⚡ Fun fact: I love breakdancing!</p>
-        </div>
-    </section> <!--SECTION ABOUT-->
-
-
-    <section class="projects-section container"> <!--SECTION-PROJECTS-->
-     
-        <div class="carousel">
-            <div class="card" onclick="flipCard(this)">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h3>Dj Website</h3>
-                        <img src="./assets/img/03.png" alt="Imagem">
-                       
-                        <a href="https://mauricioibzde.github.io/Project-Dj-website/">Click to see</a>
-                    </div>
+    </section>
+    <section  id="services">
+      <div class="container">
+        <header>
+            <span>Meus serviços</span>
+            <h2>Como posso ajudar seu negocio</h2>
+          </header>
+          <div class="card-container">
+            <div class="grid">
+                <div class="card">
+                    <img src="assets/icons/Devices.svg" alt="">
+                    <h1>Websites e Aplicativos</h1>
+                    <p>Desenvolvimento de interfaces</p>
                 </div>
-            </div>
-            
-            <div class="card" onclick="flipCard(this)">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h3>Travel Gram</h3>
-                        <img src="./assets/img/01.png" alt="Imagem">
-                       
-                        <a href="https://mauricioibzde.github.io/Travelgram-Project-Rocketseat/">Click to see</a>
-                    </div>
+              </div>
+              <div class="grid">
+                <div class="card">
+                    <img src="assets/icons/HardDrives.svg" alt="">
+                    <h1>API e banco de dados</h1>
+                    <p>Criação de serviços do sistema </p>
                 </div>
-            </div>
-            <div class="card" onclick="flipCard(this)">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <h3>Cup cake</h3>
-                        <img src="./assets/img/02.png" alt="Imagem">
-                       
-                        <a href="https://mauricioibzde.github.io/Projeto-Receita-de-Bola/">Click to see</a>
-                    </div>
+              </div>
+              <div class="grid">
+                <div class="card">
+                    <img src="assets/icons/Infinity.svg" alt="">
+                    <h1>DevOps</h1>
+                    <p>Gestão e infraestrutura da aplicação</p>
                 </div>
-            </div>
-        </div>
-    </section><!--SECTION-PROJECTS-->
-
-    <footer class="footer ">
-        <div>
-        <div class=".contact-us">
-            <h3>Contact Us</h3>
-            <p>80637 Munich
-                Germany</p>
-            <p>Monday – Friday 8:00 a.m. – 5:00 p.m.</p>
-            <p>m.fariasdasilva@hotmail.com</p>
-            <p>+49 1772278081</p>
-        </div>
-           
-        <div class="contfootercredits container">
-            <span class="assinature">Mauricio Farias da Silva</span>
-            <span>Portfolio &copy; 2025</span>
-        </div>
-        <script src="./script/index.js"></script>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section  id="contact">
+        <div class="container">
+            <header>
+                <span>Contato</span>
+                <h2>Gostou dos meu Trabalho ?</h2>
+                <p>Entre em contato ou acompanhe as minhas redes sociais!</p>
+              </header>
     
-    
-    </body>
-    </html>
-    </footer>
+              <div class="social-media-container grid gap-16">
+                <div class="social-card">
+                    <div>
+                        <img src="assets/icons/LinkedinLogo.svg" alt="">
+                        <span>Linkedin</span>
+                    </div>
+                    <img src="assets/arrow-up.svg" alt="">
+                </div>
+                <div class="social-card">
+                    <div>
+                        <img src="assets/icons/InstagramLogo.svg" alt="">
+                        <span>Instagram</span>
+                    </div>
+                    <img src="assets/arrow-up.svg" alt="">
+                </div>
+                <div class="social-card">
+                    <div>
+                        <img src="assets/icons/GitHub.svg" alt="">
+                        <span>GitHub</span>
+                    </div>
+                    <img src="assets/arrow-up.svg" alt="">
+                </div>
+                <div class="social-card">
+                    <div>
+                        <img src="assets/icons/E-mail.svg" alt="">
+                        <span>E-mail</span>
+                    </div>
+                    <img src="assets/arrow-up.svg" alt="">
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <header>
+                <span>Meu Trabalho</span>
+                <h2>Veja projetos em destaques</h2>
+              </header>
+            <div class="projects-container ">
+                    <div class="projects-card">
+                        <img src="assets/image/Thumbnail_Project-01.svg" alt="">
+                        <h1>Travelgram</h1>
+                        <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+                    </div>
+                    <div class="projects-card">
+                        <img src="assets/image/Thumbnail_Project-02.svg" alt="">
+                        <h1>Tech News</h1>
+                        <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
+                    </div>
+                    <div class="projects-card">
+                        <img src="assets/image/Thumbnail_Project-03.svg" alt="">
+                        <h1>Página de receita</h1>
+                        <p>Página com o passo a passo de uma receita para cupcakes</p>
+                    </div>
+                    <div class="projects-card">
+                        <img src="assets/image/Thumbnail_Project-04.svg" alt="">
+                        <h1>Zingen</h1>
+                        <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+                    </div>
+                    <div class="projects-card">
+                        <img src="assets/image/Thumbnail_Project-05.svg" alt="">
+                        <h1>Refund</h1>
+                        <p>Um sistema para pedido e acompanhamento de reembolso </p>
+                    </div>
+                    <div class="projects-card">
+                        <img src="assets/image/Thumbnail_Project-06.svg" alt="">
+                        <h1>Página de turismo</h1>
+                        <p>Página com as principais informações para quem quer viajar para Busan</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    </main>
+ 
+
+
+  </body>
+</html>
