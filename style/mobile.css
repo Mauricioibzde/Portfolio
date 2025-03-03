@@ -42,7 +42,7 @@
 
     .projects-container {
         overflow-x: scroll; 
-        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
         display: flex;
         flex-direction: row;
