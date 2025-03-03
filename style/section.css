@@ -38,8 +38,8 @@ section {
     padding: 0.2rem;
     background-color: var(--gray-100);
   
-   img {
-   width: 100%;
+  .photo-profile {
+    border-radius: 50%;
     object-fit: cover;
    }
     
