@@ -32,15 +32,15 @@ section {
     height: 7rem;
     background-color: var(--gray-500);
     border-radius: 50%;
-    margin-bottom: 3.5rem;
+    background-image: url(../assets/mauricio\ ibz.png);
+    background-size: cover;
     position: relative;
     border: 0.2rem solid var(--red);
     padding: 0.2rem;
     background-color: var(--gray-100);
   
-  .photo-profile {
+   .photo-profile {
     border-radius: 50%;
-    object-fit: cover;
    }
     
 }
@@ -66,6 +66,7 @@ section {
 
     h1 {
         padding-block: 5px 10px;
+        font-size: 2rem;
     }
     h2 {
         font: var(--Inconsolate);
@@ -138,26 +139,6 @@ section {
         gap: 24px;
     }
 
-    h1 {
-        margin-top: 1rem;
-        font: var(--Inconsolate);
-    }
-
-    img {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
-    figure {
-        
-        transform: scale(1.0);
-    }
-
-    figure:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s ease-in-out;
-    }
-
 
 }
 
@@ -187,17 +168,6 @@ section {
     align-items: center;
     flex-direction: column;
     margin-top: 3rem;
-
-
-    a {
-        
-        transform: scale(1.0);
-    }
-
-    a:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s ease-in-out;
-    }
 
 }
 
@@ -229,7 +199,7 @@ section {
 #projects {
     height: 100%;
     padding-block: 4.5rem 9rem;
-    background-color: var(--gray-200);
+    background-color: var(--gray-100);
     display: grid;
     justify-content: center;
 
@@ -256,11 +226,22 @@ section {
         border-radius: 0.75rem;
         padding: 0.75rem;
 
+        p {
+            width: 20rem;
+            padding-inline: 0 1rem;
+        }
+
         img {
             width: 100%;
             border-radius: 0.5rem;
         }
+
+      
     }
+}
+
+.arrow-projects {
+display: none;
 }
 
 
