@@ -39,7 +39,7 @@ section {
     background-color: var(--gray-100);
   
    img {
-         width: 100%;
+   width: 100%;
     object-fit: cover;
    }
     
@@ -148,12 +148,12 @@ section {
         height: 2.5rem;
     }
 
-    a {
+    figure {
         
         transform: scale(1.0);
     }
 
-    a:hover {
+    figure:hover {
         transform: scale(1.1);
         transition: transform 0.3s ease-in-out;
     }
