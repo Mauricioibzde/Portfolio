@@ -38,8 +38,9 @@ section {
     padding: 0.2rem;
     background-color: var(--gray-100);
   
-   .photo-profile {
+   img {
     border-radius: 50%;
+    object-fit: cover;
    }
     
 }
@@ -137,6 +138,26 @@ section {
         gap: 24px;
     }
 
+    h1 {
+        margin-top: 1rem;
+        font: var(--Inconsolate);
+    }
+
+    img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    a {
+        
+        transform: scale(1.0);
+    }
+
+    a:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
 
 }
 
@@ -166,6 +187,17 @@ section {
     align-items: center;
     flex-direction: column;
     margin-top: 3rem;
+
+
+    a {
+        
+        transform: scale(1.0);
+    }
+
+    a:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    }
 
 }
 
@@ -197,7 +229,7 @@ section {
 #projects {
     height: 100%;
     padding-block: 4.5rem 9rem;
-    background-color: var(--gray-100);
+    background-color: var(--gray-200);
     display: grid;
     justify-content: center;
 
