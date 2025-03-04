@@ -148,8 +148,8 @@ section {
 
 
 .card {
-    width: 280px;
-    height: 155px;
+    width: 17.5rem;
+    height: 9.6875rem;
     border: solid 1px var(--gray-200);
 
     padding: 20px;
