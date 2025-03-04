@@ -65,7 +65,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    #intro {
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
    
+    #contact {
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
 
 }
 
