@@ -1,6 +1,10 @@
 @media screen and (max-width: 1080px) {
 
+    #intro {
+        height: 100%;
+       
 
+    }
 
     .arrow-projects {
         width: 100%;
@@ -21,6 +25,30 @@
         grid-template-columns: repeat(3, 1fr);
         padding-inline: 3rem ;
        
+    }
+
+    .it-icons {
+        display: grid;
+grid-template-columns: 1fr;        padding-inline: 3rem;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+
+            div {
+                display: flex;
+                align-items: center;
+                text-align: left;
+                gap: 8px;
+                background-color: var(--gray-300);
+                padding: 8px 16px;
+                border-radius:0;
+
+                h2 {
+                    font: var(--Inconsolate);
+                }
+            }
+        }
     }
 
     .card-container {
@@ -62,7 +90,7 @@
     
 
 
-}
+
 
 @media screen and (max-width: 768px) {
     #intro {
@@ -113,6 +141,19 @@
         padding: 2rem;
     }
 
+
+    .it-icons {
+        
+    display: grid;
+    grid-template-columns: 1fr;
+        margin-top: 1rem;
+
+        div {
+            border-radius: 0;
+            padding-inline: 1rem;
+        }
+       
+    }
 
     .dev-icons {
         display: grid;
