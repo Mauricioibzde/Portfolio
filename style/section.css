@@ -225,6 +225,7 @@ section {
   max-height: 600px;
   overflow: auto;
   overflow-x: hidden;
+  padding: 1rem;
   
 }
 
