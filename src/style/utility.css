@@ -1,0 +1,14 @@
+:root {
+  --font-family-Asap: "Asap", sans-serif;
+  --font-family-Inconsolata: "Inconsolata", monospace;
+  --font-family-MavenPro: "Maven Pro", sans-serif;
+
+  --Asap-lg: bold 1.5625rem/120% var(--font-family-Asap);
+  --Asap-md: bold 1.5rem/120% var(--font-family-Asap);
+  --Asap-sm: bold 1rem/120% var(--font-family-Asap);
+
+  --Inconsolata: 1.25rem/120% var(--font-family-Inconsolata);
+
+  --MavenPro-md: 1rem/140% var(--font-family-MavenPro);
+  --MavenPro-sm: 0.875rem/140% var(--font-family-MavenPro);
+}

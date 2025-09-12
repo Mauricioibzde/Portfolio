@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font: var( --MavenPro-md);
+    color: white;
+}
+h2 {
+    font: var(--Asap-md);
+    color: white;
+}
+h3 {
+    font: var(--Asap-sm);
+}
+p {
+    font: var(--MavenPro-sm);
+    color: white;
+}
+
+li {
+    list-style: none;
+    font: var(--MavenPro-sm);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    font: var(--Inconsolata);
+    color: #ffc300;
+}
+
+.dev-icons div span  {
+    color: white;
+}
+
+article span {
+    color: white;
+}
+      
+
+body {
+     background-color: rgb(2, 0, 11);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header{
+   display: grid;
+   height: 6rem;
+   justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    text-align: center;
+}

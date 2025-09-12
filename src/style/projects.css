@@ -1,0 +1,95 @@
+.projects {
+    height: 100dvh;
+    padding-inline: 4rem;
+}
+
+
+.projects-container {
+    overflow-x: auto;
+    background-image: url(../assets/img/background-03.png);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 2rem 1rem;
+
+    /* Para Firefox */
+    scrollbar-width: thin;
+    /* 'auto', 'thin' ou 'none' */
+    scrollbar-color: #ffffff80 #0f0c1b;
+    /* thumb color e track color */
+
+
+}
+
+/* Para Chrome, Edge e Safari */
+.projects-container::-webkit-scrollbar {
+    height: 12px;
+    /* altura da barra horizontal */
+}
+
+.projects-container::-webkit-scrollbar-track {
+    background: rgba(15, 12, 27, 0.4);
+    /* cor do fundo da barra */
+    border-radius: 6px;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.6);
+    /* cor da "pegada" da barra */
+    border-radius: 6px;
+    border: 3px solid rgba(15, 12, 27, 0.4);
+    /* borda para espaçamento */
+}
+
+.projects-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.9);
+    /* efeito ao passar o mouse */
+}
+
+
+.bordex-card-project {
+    justify-self: center;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(15, 12, 27, 0.146);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.bordex-card-project:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+    box-shadow: 0 0px 16px rgba(255, 255, 255, 0.3);
+    border: solid 0.2px #ffffff56;
+}
+
+.projects-card {
+    & img {
+        width: 100%;
+
+    }
+}
+
+.bordex-card-project {
+    justify-self: center;
+    width: 15rem;
+    height: 18rem;
+    background-color: rgba(15, 12, 27, 0.146);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    /* opcional, fica mais bonito */
+    padding: 1rem;
+
+
+
+
+
+}
+
+.bordex-card-project:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+    box-shadow: 0 0px 16px rgba(255, 255, 255, 0.3);
+    border: solid 0.2px #ffffff56;
+}

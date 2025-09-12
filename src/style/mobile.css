@@ -1,0 +1,73 @@
+@media (max-width: 1024px) {
+  .portfolio-section-1 {
+    margin-top: 4rem;
+  }
+
+
+  .projects {
+    padding: 0;
+  }
+
+  .menu-mobile-container {
+    padding-inline: 1rem;
+    position: fixed; 
+    top: 0;
+    left: 0;        /* removi o left: 2rem duplicado */
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+   
+  }
+
+
+
+  .burger-icon {
+    position: relative;
+    left: 1.5rem;
+  }
+
+  body {
+    overflow-x: hidden; /* previne scroll lateral */
+  }
+}
+
+
+
+.projects-container {
+  padding-inline: 0;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    height: 100%;
+    padding-block: 1rem;
+  }
+
+  .projects-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-image: url(../assets/img/background-03.png);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    padding: 2rem .5rem;
+  }
+
+  .avatar {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .footer {
+    height: 33rem;
+  }
+
+  .services {
+    width: 100%;
+    height: max-content;
+  }
+
+  .card-container {
+    padding: 1rem;
+  }
+}

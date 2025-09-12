@@ -1,0 +1,188 @@
+/* From Uiverse.io by 3bdel3ziz-T */ 
+.burger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+  transition: 300ms;
+  border-radius: 10px;
+  
+ 
+}
+.burger input[type="checkbox"] {
+  appearance: none;
+  transition: 300ms;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  transition: 300ms;
+  transform-origin: center center;
+}
+
+.burger::before {
+  transform: translateY(8px);
+}
+.burger::after {
+  transform: translateY(-8px);
+}
+.burger .line,
+.burger::before,
+.burger::after {
+  width: 25px;
+  height: 2.1px;
+  display: block;
+  background-color: rgb(252, 252, 255);
+  border-radius: 5px;
+  position: absolute;
+}
+
+.burger .line:checked {
+  width: 0;
+  transition-delay: 100ms;
+}
+.burger:has(.line:checked)::before {
+  animation: animation1 400ms ease-out 0s 1 both;
+}
+.burger:has(.line:checked)::after {
+  animation: animation2 400ms ease-out 0s 1 both;
+}
+
+.burger:hover {
+ border: solid 0.2px #ffffff56;
+  border-radius: 50%;
+}
+
+.burger:hover .line,
+.burger:hover::before,
+.burger:hover::after {
+  
+}
+
+.burger:active {
+  scale: 0.95;
+  z-index: 1;
+}
+@keyframes animation1 {
+  0% {
+    transform: translateY(8px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+  }
+}
+@keyframes animation2 {
+  0% {
+    transform: translateY(-8px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-45deg);
+  }
+}
+
+
+
+/*      End of Uiverse.io code      */  
+
+
+
+.menu-list {
+    display: grid;
+    gap: 1rem;
+    
+    
+
+      
+ & li {
+    padding: 1rem;
+ }
+
+& a {
+    font: var(--MavenPro-md);
+    color: white;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem; 
+    border-radius: 0.5rem; 
+    display: inline-block; 
+}
+
+& a:hover {
+    color: #fafafa;
+    background-color: rgba(0, 22, 65, 0.269);
+    padding: 0.75rem 2rem; 
+    transform: scale(1.05); 
+    border: solid 0.2px #ffffff56;
+}
+& a:active {
+    transform: scale(0.95);
+}
+
+
+    }
+
+
+.burger-icon {
+    z-index: 10;
+}
+
+
+.menu-mobile {
+    width: 70%;
+    max-width: 400px; /* evita ficar gigante em telas grandes */
+    height: 30rem;
+    display: grid;
+    position: fixed;
+    top: 4rem;
+    left: -100%; /* escondido por padrão */
+    z-index: 1000; /* sempre acima */
+    background-image: url(../assets/img/background-02.png);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 0 0rem 2rem 0rem;
+    border-style: solid;
+    border-color: #f7f7f7;
+    border-width: 0px 0.2px 0.2px 0; /* top right bottom left */
+    transition: left 0.3s ease; /* suaviza o movimento */
+    box-shadow: 2px 0 10px rgba(0,0,0,0.4); /* efeito de sombra lateral */
+    z-index: -1;
+}
+
+.menu-mobile button {
+    width: 6rem;
+    height: 3rem;
+    justify-self: end;
+}
+
+.menu-mobile.active {
+    z-index: 1;
+    left: 0; /* aparece colado na esquerda */
+}
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
