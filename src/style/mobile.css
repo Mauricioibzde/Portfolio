@@ -57,4 +57,9 @@
   .card-container {
     padding: 1rem;
   }
+
+  .max-width {
+   
+    padding-inline: 1rem;
+}
 }
