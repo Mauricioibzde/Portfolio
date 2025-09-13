@@ -51,7 +51,15 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
+   
+}
+
+
+
+
+.max-width {
+    max-width: 1200px;
+    padding-inline: 4rem;
 }
 
 header{
@@ -62,3 +70,4 @@ header{
     padding: 1rem 0;
     text-align: center;
 }
+

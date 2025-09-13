@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem ;
 
     /* Para Firefox */
     scrollbar-width: thin;

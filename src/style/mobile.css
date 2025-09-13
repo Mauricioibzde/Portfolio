@@ -3,28 +3,18 @@
     margin-top: 4rem;
   }
 
+  main {
+    padding-inline: 2rem;
+  }
+
 
   .projects {
     padding: 0;
   }
 
-  .menu-mobile-container {
-    padding-inline: 1rem;
-    position: fixed; 
-    top: 0;
-    left: 0;        /* removi o left: 2rem duplicado */
-    right: 0;
-    width: 100%;
-    box-sizing: border-box;
-   
-  }
 
 
 
-  .burger-icon {
-    position: relative;
-    left: 1.5rem;
-  }
 
   body {
     overflow-x: hidden; /* previne scroll lateral */
@@ -33,9 +23,6 @@
 
 
 
-.projects-container {
-  padding-inline: 0;
-}
 
 @media (max-width: 768px) {
   .projects {

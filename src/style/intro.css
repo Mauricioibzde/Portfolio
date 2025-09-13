@@ -16,6 +16,20 @@
     }
 }
 
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & a img {
+        width: 1.5rem;
+        height: 1.5rem;
+       
+    }
+
+   
+}
+
 
 
 .menu-mobile-container {
@@ -32,8 +46,9 @@
 
 
       .header-main {
-    display: flex;
-    justify-content: flex-start;
+   display: grid;
+   justify-content: space-between;
+   grid-auto-flow: column;
     align-items: center;
     position: fixed;
     top: 0;
@@ -47,7 +62,7 @@
     background-size: cover;
     background-position: center;
      border-bottom: solid 1px #ffffff; /* adicionado para evitar estourar */
-     padding-inline:1rem;
+     margin: 0 auto;
      overflow-y: hidden;
   }
     
