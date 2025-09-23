@@ -71,3 +71,15 @@ header{
     text-align: center;
 }
 
+.img-hight-light {
+    height: 16rem;
+   
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top right;
+      
+    }
+}
+

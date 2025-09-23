@@ -19,6 +19,12 @@
   body {
     overflow-x: hidden; /* previne scroll lateral */
   }
+
+    .txt-my-service {
+   
+    padding-inline: 0!important;
+
+}
 }
 
 
@@ -52,6 +58,7 @@
   .services {
     width: 100%;
     height: max-content;
+    
   }
 
   .card-container {
@@ -62,6 +69,8 @@
    
     padding-inline: 1rem;
 }
+
+
 
 
 }
