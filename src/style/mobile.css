@@ -3,6 +3,9 @@
     margin-top: 4rem;
   }
 
+   .header-main {
+        padding-inline: 1rem;
+ }
   main {
     padding-inline: 2rem;
   }

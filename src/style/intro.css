@@ -46,6 +46,7 @@
 
 
       .header-main {
+        padding-inline: 6rem;
    display: grid;
    justify-content: space-between;
    grid-auto-flow: column;
@@ -58,10 +59,10 @@
     height: 4rem;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-image: url(../assets/img/background-02.png);
+    background-color: var();
     background-size: cover;
     background-position: center;
-    
+    background-color: #02000b;
      margin: 0 auto;
      overflow-y: hidden;
   }
