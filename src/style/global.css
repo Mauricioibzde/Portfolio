@@ -84,6 +84,12 @@ header{
 }
 
 .section-high-light {
-  padding-block: 1rem;
+  padding-block: 2rem;
+ & div {
+    & img {
+         border-radius: 1rem;
+    }
+ }
+
 }
 

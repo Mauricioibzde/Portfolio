@@ -21,6 +21,7 @@
     align-items: center;
     gap: 1rem;
 
+
     & a img {
         width: 1.5rem;
         height: 1.5rem;
@@ -46,7 +47,8 @@
 
 
       .header-main {
-        padding-inline: 6rem;
+        padding-inline: 4rem;
+    max-width: 1250px;
    display: grid;
    justify-content: space-between;
    grid-auto-flow: column;
@@ -110,7 +112,7 @@
     background-position: center;
     background-size: cover;
     padding-block: 1rem 7rem;
-    margin-top: 8rem;
+    padding-block: 4rem;
 
 
 }

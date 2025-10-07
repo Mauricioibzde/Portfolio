@@ -1,4 +1,8 @@
 @media (max-width: 1024px) {
+
+  main {
+    padding-inline: 1rem;
+  }
   .portfolio-section-1 {
     margin-top: 4rem;
   }
@@ -6,9 +10,7 @@
    .header-main {
         padding-inline: 1rem;
  }
-  main {
-    padding-inline: 2rem;
-  }
+
 
 
   .projects {
@@ -23,11 +25,7 @@
     overflow-x: hidden; /* previne scroll lateral */
   }
 
-    .txt-my-service {
-   
-    padding-inline: 0!important;
 
-}
 
 
 }

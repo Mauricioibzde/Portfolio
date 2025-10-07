@@ -44,42 +44,6 @@
         
     }
 }
-@media (max-width: 768px) {
-    main {
-        padding: 0;
-    }
-  .about div {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 4rem;
-    
-  }
 
-  .about p:nth-child(1) {
-    margin-top: 1rem;
-  
-}
-
-  .about p:nth-child(2) {
-    margin-top: 1rem;
-  
-}
-
-.footer {
-    height: auto;
-}
-
-}
-
-
-
-@media (max-width: 500px) {
-.about {
-  
-    margin-top: 4rem;
-    padding-inline: 2rem;
-}
-
-}
 
 

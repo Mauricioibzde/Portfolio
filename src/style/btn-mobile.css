@@ -147,15 +147,14 @@
     top: 4rem;
     left: -100%; /* escondido por padrão */
     z-index: 1000; /* sempre acima */
-    background-image: url(../assets/img/background-02.png);
-    background-size: cover;
-    background-position: center;
+    
+   background-color: #02000b;
     text-align: left;
     padding: 2rem;
     border-radius: 0 0rem 2rem 0rem;
     border-style: solid;
     border-color: #f7f7f7;
-    border-width: 0px 0.2px 0.2px 0; /* top right bottom left */
+    border-width: 0px 0px 0.2px 0; /* top right bottom left */
     transition: left 0.3s ease; /* suaviza o movimento */
     box-shadow: 2px 0 10px rgba(0,0,0,0.4); /* efeito de sombra lateral */
     z-index: -1;
