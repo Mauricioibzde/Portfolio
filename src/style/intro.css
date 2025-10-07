@@ -117,6 +117,7 @@
 span.nome {
     color: #ffc300;
     font: var(--MavenPro-md);
+    font-size: 1.8rem;
 }
 
 .nome {
@@ -164,5 +165,21 @@ span.nome {
             width: 1.5rem;
             height: 1.5rem;
         }
+    }
+}
+
+
+.hello, .profissao {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.nome {
+  opacity: 1; /* o nome será digitado */
+}
+
+.typewriter {
+    & span {
+        color: white;
     }
 }
