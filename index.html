@@ -2,84 +2,93 @@
 <html lang="en">
 
 <head>
-  <!-- Fontes -->
-  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Portfolio - Mauricio Farias</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="src/style/index.css">
 </head>
 
 <body>
 
-  <main class="container ">
-    <div class="menu-mobile-container ">
-      <header class="header-main max-width">
+  <main class="container">
 
-       
+    <!-- Mobile Menu & Header -->
+    <div class="menu-mobile-container">
+      <header class="header-main max-width">
 
         <div class="burger-icon">
           <label class="burger" for="burger">
-            <input class="line" type="checkbox" id="burger" />
+            <input class="line" type="checkbox" id="burger">
           </label>
         </div>
 
         <nav class="menu-mobile">
           <ul class="menu-list">
+            <li><a href="./index.html">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="./src/document/Lebenslauf.pdf">CV</a></li>
+            <li><a href="./src/document/Lebenslauf.pdf" target="_blank">CV</a></li>
           </ul>
         </nav>
 
         <div class="social-media">
-          <a href="https://github.com/Mauricioibzde" target="_blank"> <img src="src/assets/icons/git.png" alt=""></a>
-            <a href="https://de.linkedin.com/in/mauricio-farias-da-silva-4a791a313" target="_blank"> <img src="src/assets/icons/Linkedin.png" alt=""></a>
-            <a href="mailto:m.fariasdasilva@hotmail.com"><img src="src/assets/icons/Email.png" alt=""></a>
+          <a href="https://github.com/Mauricioibzde" target="_blank">
+            <img src="src/assets/icons/git.png" alt="GitHub">
+          </a>
+          <a href="https://de.linkedin.com/in/mauricio-farias-da-silva-4a791a313" target="_blank">
+            <img src="src/assets/icons/Linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="mailto:m.fariasdasilva@hotmail.com">
+            <img src="src/assets/icons/Email.png" alt="Email">
+          </a>
         </div>
 
       </header>
     </div>
 
+    <!-- Hero Section -->
     <section class="portfolio-section-1 container">
       <div class="avatar">
-        <img src="src/assets/img/foto-perfil.png" alt="">
+        <img src="src/assets/img/foto-perfil.png" alt="Foto de perfil">
       </div>
       <div class="text-presents">
-<h1 class="typewriter">
-  <span class="hello">Hello World!  <br></span>  
-  <span class="nome"></span> <br>
-  <span class="profissao">Fullstack Developer and IT Administrator</span>
-</h1>
-
-
-       
-        <p>I transform needs into real, evolving and functional applications. I develop systems through my passion for
-          technology, contributing innovative and effective solutions to complex challenges.</p>
+        <h1 class="typewriter">
+          <span class="hello">Hello World!<br></span>
+          <span class="nome"></span><br>
+          <span class="profissao">Fullstack Developer and IT Administrator</span>
+        </h1>
+        <p>
+          I transform needs into real, evolving and functional applications. I develop systems through my passion for technology,
+          contributing innovative and effective solutions to complex challenges.
+        </p>
       </div>
       <div class="dev-icons">
-        <div><img class="GitHub" src="src/assets/icons/GitHub.svg" alt=""><span>GitHub</span></div>
-        <div><img class="HTML" src="src/assets/icons/HTML.svg" alt=""><span>HTML</span></div>
-        <div><img class="CSS" src="src/assets/icons/CSS.svg" alt=""><span>CSS</span></div>
-        <div><img class="JavaScript" src="src/assets/icons/JavaScript.svg" alt=""><span>JavaScript</span></div>
-        <div><img class="React" src="src/assets/icons/React.svg" alt=""><span>React</span></div>
-        <div><img class="Node.js" src="src/assets/icons/Node.js.svg" alt=""><span>Node.js</span></div>
+        <div><img src="src/assets/icons/GitHub.svg" alt="GitHub"><span>GitHub</span></div>
+        <div><img src="src/assets/icons/HTML.svg" alt="HTML"><span>HTML</span></div>
+        <div><img src="src/assets/icons/CSS.svg" alt="CSS"><span>CSS</span></div>
+        <div><img src="src/assets/icons/JavaScript.svg" alt="JavaScript"><span>JavaScript</span></div>
+        <div><img src="src/assets/icons/React.svg" alt="React"><span>React</span></div>
+        <div><img src="src/assets/icons/Node.js.svg" alt="Node.js"><span>Node.js</span></div>
       </div>
     </section>
 
-
+    <!-- Highlight Section -->
     <section class="section-high-light">
-        <div class="img-hight-light">
-          <img src=".//src/assets/img/HIGH LIGHT.png" alt="">
-        </div>
+      <div class="img-hight-light">
+        <img src="src/assets/img/HIGH LIGHT.png" alt="Highlight Image">
+      </div>
     </section>
 
-    <section class="services container"  id="services">
+    <!-- Services Section -->
+    <section class="services container" id="services">
       <div class="txt-my-service container">
         <header>
           <span>My Services</span>
@@ -88,27 +97,25 @@
         <div class="card-container">
           <div class="grid">
             <article class="card">
-              <img src="src/assets/icons/Devices.svg" alt="Ícone de dispositivos">
+              <img src="src/assets/icons/Devices.svg" alt="Devices Icon">
               <div class="card-content">
                 <span class="card-title">Websites and Apps</span>
                 <p>Interface development</p>
               </div>
             </article>
           </div>
-
           <div class="grid">
             <article class="card">
-              <img src="src/assets/icons/HardDrives.svg" alt="Ícone de banco de dados">
+              <img src="src/assets/icons/HardDrives.svg" alt="Database Icon">
               <div class="card-content">
                 <span class="card-title">API and database</span>
                 <p>Creating System Services</p>
               </div>
             </article>
           </div>
-
           <div class="grid">
             <article class="card">
-              <img src="src/assets/icons/Infinity.svg" alt="Ícone infinito">
+              <img src="src/assets/icons/Infinity.svg" alt="Infinity Icon">
               <div class="card-content">
                 <span class="card-title">DevOps</span>
                 <p>Application management and infrastructure</p>
@@ -119,20 +126,20 @@
       </div>
     </section>
 
-    <section class="projects " id="projects">
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
       <div class="container">
         <header class="header-projects">
           <div class="arrow-projects">
-            <img src="src/assets/icons/arrow-red.png" alt="">
+            <img src="src/assets/icons/arrow-red.png" alt="Arrow Icon">
           </div>
           <span>My Projects</span>
           <h2>See featured projects</h2>
         </header>
         <div class="projects-container">
-
-               <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Artikelverwaltung/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+          <!-- Example Project Card -->
+          <div class="bordex-card-project">
+            <a href="https://mauricioibzde.github.io/Artikelverwaltung/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-11.png" alt="Inventory Manager preview">
                 <h2>Inventory Manager</h2>
@@ -142,20 +149,17 @@
           </div>
 
           <div class="bordex-card-project">
-  <a href="https://mauricioibzde.github.io/--Community-Subscription-Club-Landing-Page/" class="project-link" target="_blank" rel="noopener noreferrer">
-    <div class="projects-card">
-      <img src="src/assets/img/Thumbnail_Project-16.png" alt="Subscription Club preview">
-      <h2>Subscription Club</h2>
-      <p>A magical landing page for a book subscription service offering monthly kits with surprise books and exclusive gifts.</p>
-    </div>
-  </a>
-</div>
+            <a href="https://mauricioibzde.github.io/--Community-Subscription-Club-Landing-Page/" target="_blank" rel="noopener noreferrer">
+              <div class="projects-card">
+                <img src="src/assets/img/Thumbnail_Project-16.png" alt="Subscription Club preview">
+                <h2>Subscription Club</h2>
+                <p>A magical landing page for a book subscription service offering monthly kits with surprise books and exclusive gifts.</p>
+              </div>
+            </a>
+          </div>
 
-
-
-                <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Refund/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+          <div class="bordex-card-project">
+            <a href="https://mauricioibzde.github.io/Refund/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-14.png" alt="Refund preview">
                 <h2>Refund</h2>
@@ -164,9 +168,8 @@
             </a>
           </div>
 
-        <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Animated-roller-skating-LP/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+          <div class="bordex-card-project">
+            <a href="https://mauricioibzde.github.io/Animated-roller-skating-LP/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-15.png" alt="Animated roller skating preview">
                 <h2>Animated roller skating</h2>
@@ -174,16 +177,9 @@
               </div>
             </a>
           </div>
-     
-
-      
-     
-
-    
 
           <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/currency-conversion-system/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://mauricioibzde.github.io/currency-conversion-system/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-08.png" alt="Currency Converter preview">
                 <h2>Currency Converter</h2>
@@ -193,8 +189,7 @@
           </div>
 
           <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/News-Portal-Project/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://mauricioibzde.github.io/News-Portal-Project/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-12.png" alt="Tech News preview">
                 <h2>Tech News</h2>
@@ -204,8 +199,7 @@
           </div>
 
           <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Travelgram-Project-Rocketseat/" class="project-link"
-              target="_blank" rel="noopener noreferrer">
+            <a href="https://mauricioibzde.github.io/Travelgram-Project-Rocketseat/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-01.png" alt="Travelgram preview">
                 <h2>Travelgram</h2>
@@ -215,8 +209,7 @@
           </div>
 
           <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Event-Invitation-Form/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://mauricioibzde.github.io/Event-Invitation-Form/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-13.png" alt="Generate Your Invitation preview">
                 <h2>Generate Your Invitation</h2>
@@ -226,8 +219,7 @@
           </div>
 
           <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Shopping-list-app/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://mauricioibzde.github.io/Shopping-list-app/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-07.png" alt="Quicklist preview">
                 <h2>Quicklist</h2>
@@ -237,8 +229,7 @@
           </div>
 
           <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Desafio-da-Rocketseat-locais-turisticos/" class="project-link"
-              target="_blank" rel="noopener noreferrer">
+            <a href="https://mauricioibzde.github.io/Desafio-da-Rocketseat-locais-turisticos/" target="_blank" rel="noopener noreferrer">
               <div class="projects-card">
                 <img src="src/assets/img/Thumbnail_Project-06.png" alt="Tourism Page preview">
                 <h2>Tourism Page</h2>
@@ -246,27 +237,15 @@
               </div>
             </a>
           </div>
-          <!--
-          <div class="bordex-card-project">
-            <a href="https://mauricioibzde.github.io/Best-Pizza-Website/" class="project-link" target="_blank"
-              rel="noopener noreferrer">
-              <div class="projects-card">
-                <img src="src/assets/img/Thumbnail_Project-10.png" alt="Best Pizza preview">
-                <h2>Best Pizza</h2>
-                <p>Serving the most delicious slices in town — fresh, fast, and full of flavor.</p>
-              </div>
-            </a>
-          </div>
--->
-        </div>
 
+        </div>
       </div>
     </section>
 
+    <!-- Footer / Contact -->
     <section class="footer" id="contact">
       <footer class="footer">
         <div class="footer-container">
-
           <div class="footer-about">
             <h2>My Portfolio</h2>
             <p>Creative, responsive, and professional projects. 🚀</p>
@@ -276,7 +255,7 @@
             <h3>Quick Links</h3>
             <ul>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#about">About Me</a></li>
+              <li><a href="./about.html">About Me</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -287,7 +266,6 @@
             <a href="https://de.linkedin.com/in/mauricio-farias-da-silva-4a791a313" target="_blank">LinkedIn</a>
             <a href="mailto:m.fariasdasilva@hotmail.com">Send me an email</a>
           </div>
-
         </div>
 
         <div class="footer-bottom">
@@ -298,7 +276,8 @@
 
   </main>
 
+  <script src="src/script/script.js"></script>
+
 </body>
-<script src="src/script/script.js"></script>
 
 </html>
