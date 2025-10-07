@@ -61,7 +61,7 @@
     background-image: url(../assets/img/background-02.png);
     background-size: cover;
     background-position: center;
-     border-bottom: solid 1px #ffffff; /* adicionado para evitar estourar */
+    
      margin: 0 auto;
      overflow-y: hidden;
   }

@@ -141,7 +141,7 @@
 .menu-mobile {
     width: 70%;
     max-width: 400px; /* evita ficar gigante em telas grandes */
-    height: 30rem;
+   
     display: grid;
     position: fixed;
     top: 4rem;
