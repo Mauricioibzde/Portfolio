@@ -70,7 +70,7 @@ function startColorBlinkEffect(element) {
   }, 300);
 
   function colorRotate() {
-    const colors = ["#fa4949ff", "#6524ffff",  "#f901f6"];
+    const colors = ["#ff6969ff"];
     let colorIndex = 0;
     setInterval(() => {
       element.style.color = colors[colorIndex];
