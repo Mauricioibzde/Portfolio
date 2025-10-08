@@ -1,5 +1,6 @@
 .footer {
- 
+      font: var(--MavenPro-sm);
+
   color: #fff;
   padding: 2rem 1rem;
   margin-top: 2rem;
