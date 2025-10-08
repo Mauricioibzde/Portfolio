@@ -55,7 +55,7 @@
   }
 
   .footer {
-    height: 33rem;
+  
   }
 
   .services {
@@ -73,7 +73,11 @@
     padding-inline: 1rem;
 }
 
-
+.about div {
+  margin-top: 4rem;
+    display: flex !important;
+    flex-direction: column;
+  }
 
 
 }
