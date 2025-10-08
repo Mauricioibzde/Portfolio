@@ -74,10 +74,20 @@
 }
 
 .about div {
-  margin-top: 4rem;
+  margin-top: 5rem;
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column-reverse;
+
+    & p:nth-child(1) {
+    margin-top: 0;
+    padding: 0;
+   }
+
+     & p:nth-child(2) {
+    padding: 0;
+    
+   }
   }
 
-
+   
 }
