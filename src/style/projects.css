@@ -8,7 +8,7 @@
     overflow-x: auto;
     background-image: url(../assets/img/background-03.png);
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
     padding: 2rem ;
 
