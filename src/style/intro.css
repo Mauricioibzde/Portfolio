@@ -48,7 +48,7 @@
 
       .header-main {
         padding-inline: 4rem;
-    max-width: 1250px;
+   
    display: grid;
    justify-content: space-between;
    grid-auto-flow: column;
