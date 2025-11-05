@@ -84,6 +84,7 @@
     overflow: hidden;
     padding: .2rem;
     transform: translateY(-3rem);
+    z-index: 10;
 
     
     & img {
