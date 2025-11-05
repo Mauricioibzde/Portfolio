@@ -78,3 +78,4 @@ function startColorBlinkEffect(element) {
     }, 1500);
   }
 }
+
